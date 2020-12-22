@@ -1,0 +1,183 @@
+
+/* POLICES */
+@font-face
+{
+	font-family:"kalamL";
+	src: url("font/Kalam-Light.ttf") format("truetype");
+}
+@font-face
+{
+  font-family:"kalamB";
+	src: url("font/Kalam-Bold.ttf") format("truetype");
+}
+
+
+body
+{
+  background-color: #50608F;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+h1
+{
+	font-family: kalamL,Verdanna;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px black;
+	background-color: #162655;
+	border-radius: 2%;
+	border: solid black 3px;
+}
+
+a
+{
+  text-decoration: none;
+}
+/* LIEN DES FICHIERS PDF */
+.link
+{
+	color: blue;
+	font-style: italic;
+}
+.link:hover
+{
+	color: silver;
+}
+
+/* PHOTO */
+.moi
+{
+  display: flex;
+  height: 14%;
+  width: 14%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/* INFOS */
+.nom
+{
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+	background-color: #162655;
+	border-radius: 5%;
+	border: solid black 3px;
+
+}
+/* DIV CONTENANT EXP + FORMATIONS */
+.container
+{
+  display: flex;
+  margin-top: 2%;
+  font-size: 1em;
+  justify-content: center;
+  font-family: Verdanna,sans-serif;
+	margin-top: 0%;
+}
+/* SS DIV EXPERIENCES */
+.exp
+{
+width: 50%;
+text-align: left;
+}
+
+/* SS DIV FORMATIONS */
+.formations
+{
+  text-align: justify;
+  width: 50%;
+  height: auto;
+}
+
+/* HOBBIES */
+.hobbies
+{
+	margin-top: -1%;
+}
+.hobbies_icons1
+{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.hobbies_icons2
+{
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* TOTALITÉ ICONES DE HOBBIES */
+.icon{
+  height: 10%;
+  width: 10%;
+}
+
+.container2
+{
+  display: flex;
+  margin-top: -1%;
+  font-size: 1em;
+  justify-content: space-between;
+  font-family: Verdanna,sans-serif;
+}
+/* BARRES DE COMPETENCES */
+.barre
+{
+
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+/* DIV LANGUES */
+.langues
+{
+	text-align: center;
+	font-size: 1em;
+	font-family: Verdanna,sans-serif;
+	width: 50%;
+}
+
+.langues3
+{
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/* DIV CONTACTS */
+.contacts
+{
+  display: flex;
+  margin-left: auto;
+  margin-right: 15%;
+  width: 50%;
+  font-size: 1.2em;
+	margin-top: -1%;
+}
+
+/* ICONES DES CONTACTS */
+.contact_icons
+{
+  height: 10%;
+  width: 10%;
+}
